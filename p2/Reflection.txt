@@ -1,0 +1,14 @@
+Reflection
+/*
+	==================================================
+	Workshop #5 (Part-2): REFLECTION
+	==================================================
+	Name   : Harsh Patel
+	ID     : 146315205
+	Email  : hpatel262@myseneca.ca
+	Section: IPC144NJJ
+*/
+
+1. The main advantage of using structure is we can group different variables under one object. This helps us to locate similar data types in whole code and it became easy to maintain. In this workshop we have used mainly iteration and selection statements to run the game. So, we created two structures one of PlayerInfo where variables will be taken for player lives, how he will be represented in game, where he gets treasure and what are the moves, he already gone. And other one is GameInfo where we configure how long will be the game, moves allowed and where we stored bombs and treasures. Here I used for loop mainly for iteration under iteration. When to store the inputs of user we used array variables in structure. So, when its time to use those variables, we retrieve them using object with & operator. I have created object p and g respectively, of structures. So visually and to make any changes it became easy to locate any variable. Therefore, this were some benefits which I feel helpful. 
+2. If we need to do this, I think we need to use array of structures to update after each game played and to store endgame results, we need update and store result after each game played. To do this we need to make one more array to store results. To keep history, we will do plus plus (++) the array variable after each game played.
+3. Part 2 consumes my most of time. To create a logic how to show most recent move position using player symbol. And even configuring the output what to show after each move. Like, what should be the conditions be used, how to compare the array positions and how to use them while comparing by position. To do this I searched for examples on internet of array within structures. It was bit hard for me to understand but got after some time. Even I asked for how to compare the positions to show after each move. I was not getting like how to iterate and how long I need to do. Like which type of iteration be used. So, I tried to ask some mates and they give me hind of for loop, so I tried to put on it and finally got it.
